@@ -1,7 +1,9 @@
-🛠️ Admin Menu Script
+# 🛠️ Admin Menu Script
+
 A powerful and interactive Bash-based administration menu for Linux systems. Designed for system admins and power users, this script automates system checks, network diagnostics, package verification, rootkit detection, and much more—all in a colorful, user-friendly menu interface.
 
-📦 Features
+# 📦 Features
+
 Auto-Installation of required system tools
 
 System Info (hostname, uptime, logged-in users)
@@ -39,8 +41,8 @@ Active SSH Sessions
 Rootkit Check (via chkrootkit or rkhunter)
 
 # 🚀 Getting Started
-Prerequisites
-Make sure your system is Debian/Ubuntu-based. Required tools include:
+
+Prerequisites - Make sure your system is Debian/Ubuntu-based. Required tools include:
 
 nmap
 
@@ -74,24 +76,24 @@ chmod +x admin_menu.sh
 
 ./admin_menu.sh
 
-🧠 Usage
+# 🧠 Usage
 Just run the script and choose from the numbered options in the menu. Results are color-coded for better visibility.
 
 Press Enter to return to the menu after each task.
 
-🔐 Security Notes
+#  🔐 Security Notes
 chkrootkit or rkhunter is used to detect potential rootkits.
 
 Uses sudo where needed (you will be prompted for your password).
 
 Scans your local subnet for live hosts with nmap.
 
-💡 Tips
+# 💡 Tips
 To enable real-time network monitoring, run the script in a terminal with sufficient permissions (iftop needs root).
 
 Use screen or tmux for persistent sessions.
 
 You can easily expand this script by adding your own tools and functions to the menu.
 
-📜 License
+# 📜 License
 MIT License
